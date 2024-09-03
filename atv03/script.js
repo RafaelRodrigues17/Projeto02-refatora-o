@@ -12,12 +12,14 @@ function calcular(){
             break;
         case "*":
             resultado = batata1 * batata2
+            break;
         case "/":
             if(batata2 !== 0){
                 resultado = batata1 / batata2
             }else{
                 resultado = "Erro: Divisão por 0 não existe"
             }
+            break;
  
         default:
             resultado = " Operador inválido"          
