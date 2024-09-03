@@ -1,21 +1,21 @@
 function calcular(){
-    var batata1 = parseFloat(document.getElementById("num1").value)
-    var batata2 = parseFloat(document.getElementById("num2").value)
+    var numero1 = parseFloat(document.getElementById("num1").value)
+    var numero2 = parseFloat(document.getElementById("num2").value)
     var operador = document.getElementById("operador").value
 
     switch (operador) {
         case "+": 
-            resultado = batata1 + batata2
+            resultado = numero1 + numero2
             break;
         case "-":
-            resultado = batata1 - batata2
+            resultado = numero1 - numero2
             break;
         case "*":
-            resultado = batata1 * batata2
+            resultado = numero1 * numero2
             break;
         case "/":
-            if(batata2 !== 0){
-                resultado = batata1 / batata2
+            if(numero2 !== 0){
+                resultado = numero1 / numero2
             }else{
                 resultado = "Erro: Divisão por 0 não existe"
             }
